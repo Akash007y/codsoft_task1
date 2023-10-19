@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Starbucks-landing page</title>
+</head>
+
+<body>
+    <section>
+        <div class="circle"></div>
+        <header>
+
+            <a href="#" class="logo"><img src="./photos/logo.png"></a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">What's New</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+
+        </header>
+        <div class="content">
+            <div class="textbox">
+                <h2>It's not just Coffee<br>It's <span>Starbucks</span></h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Illo cum neque distinctio praesentium id iusto, earum odit explicabo rem recusandae voluptas fuga
+                    eius,Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro corrupti laborum ipsam
+                    architecto neque nisi aliquam, aut dolorum fuga impedit ab sed magnam tenetur aspernatur vitae nulla
+                    eaque enim. Enim.
+                </p>
+                <a href="#">Learn More</a>
+            </div>
+            <div class="imgBox">
+                <img src="./photos/img1.png" class="starbucks">
+            </div>
+        </div>
+        <ul class="thumb">
+            <li><img src="./photos/thumb1.png" onclick="imgSlider('./photos/img1.png');changeCirlceColor('#017143')">
+            </li>
+            <li><img src="./photos/thumb2.png" onclick="imgSlider('./photos/img2.png');changeCirlceColor('#eb7495')">
+            </li>
+            <li><img src="./photos/thumb3.png" onclick="imgSlider('./photos/img3.png');changeCirlceColor('#d752b1')">
+            </li>
+        </ul>
+        <ul class="social">
+            <li><a href="#"><img src="./photos/facebook.png"></a></li>
+            <li><a href="#"><img src="./photos/instagram.png"></a></li>
+            <li><a href="#"><img src="./photos/twitter.png"></a></li>
+        </ul>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
